@@ -15,6 +15,11 @@
   "keywords": [],
   "author": "Mateusz Potocki <mateusz.potocki92@gmail.com>",
   "dependencies": {
-    "node": "^19.3.0"
+    "node": "^19.3.0",
+    "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "posthtml-include": "^1.7.4"
   }
 }
