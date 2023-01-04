@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/potocki92/nodejs-server",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /nodejs-server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potocki92/nodejs-server.git"
+  },
+  "keywords": [],
+  "author": "Mateusz Potocki <mateusz.potocki92@gmail.com>",
+  "dependencies": {
+    "node": "^19.3.0"
+  }
+}
